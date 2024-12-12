@@ -1,0 +1,32 @@
+    <style>
+        body {
+          font-family: 'Poppins', sans-serif;
+        }
+
+        .toggle-btn {
+          position: fixed;
+          bottom: 20px;
+          right: 20px;
+          z-index: 1000;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 5px;
+        }
+      
+        
+        .dark-mode .btn, .dark-mode .nav-link {
+          color: #ffffff;
+        }
+      
+        .dark-mode .btn:hover, .dark-mode .nav-link:hover {
+          color: #f0f0f0; 
+        }
+      
+        .toggle-btn img {
+          width: 20px;
+          height: 20px;
+          margin-right: 8px;
+        }
+      </style>
+      
